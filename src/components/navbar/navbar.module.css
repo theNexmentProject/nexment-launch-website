@@ -1,0 +1,100 @@
+.main {
+  padding: 8px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--secondary);
+  width: 100%;
+}
+
+.right, .left {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+.left h1 {
+  font-size: x-large;
+  font-weight: 900;
+  margin: 0px;
+  color: var(--accent);
+}
+
+.divider {
+  height: 35px;
+  background: var(--secondary);
+  width: 2px;
+}
+
+.github, .docs {
+  text-decoration: none;
+  color: var(--text);
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+.github {
+  background: var(--primary);
+  color: var(--text);
+  padding: 8px 20px;
+  font-size: large;
+  border-radius: 10px;
+  margin: 5px 0px;
+}
+
+.docs {
+  color: var(--text);
+  font-weight: 500px;
+  font-size: large;
+  margin-right: 10px;
+  padding: 5px 10px;
+  border-bottom: 2px solid var(--primary);
+}
+
+.smallDocs, .smallGit {
+  display: none;
+  text-decoration: none;
+  color: var(--text);
+  justify-content: center;
+  align-items: center;
+}
+
+.smallDocs {
+  color: var(--text);
+  font-weight: 500px;
+  font-size: 1rem;
+  margin-right: 5px;
+  padding: 5px 10px;
+  border-bottom: 1px solid var(--primary);
+}
+
+.smallGit {
+  background: var(--primary);
+  color: var(--text);
+  padding: 8px 8px;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  margin: 5px 0px;
+}
+
+@media(max-width: 700px) {
+  .docs, .github {
+    display: none;
+  }
+  .smallDocs, .smallGit {
+    display: flex;
+  }
+  .left h1 {
+    display: none;
+  }
+  .divider {
+    display: none;
+  }
+  .left img {
+    height: 20;
+    width: 80;
+  }
+}

@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Nexment Launch Website
 
-## Getting Started
+Official launch website for **The Nexment Project**.
 
-First, run the development server:
+This repository contains the website created for the public launch of Nexment on **November 11, 2026**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## About
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The launch website provides a simple introduction to Nexment, the project, and the **Nexment CLI**.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+It is designed as a minimal landing page focused on the launch rather than as the main Nexment documentation or product website.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Launch
 
-## Learn More
+**Launch Date:** November 11, 2026
 
-To learn more about Next.js, take a look at the following resources:
+The initial launch focuses on the **Nexment CLI** and its developer-focused tools and features.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Repository
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This repository is maintained as part of the official Nexment project organization.
 
-## Deploy on Vercel
+The website is primarily a launch and informational page. Development of the Nexment CLI and other Nexment projects is maintained in their respective repositories.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Contributions to this repository are not currently open.
+
+If you find an issue with the website, you can report it through the appropriate Nexment project channels.
+
+## License
+
+See the [LICENSE](LICENSE) file for license information.
+
+---
+
+**The Nexment Project**
+
+Building useful tools for developers.
