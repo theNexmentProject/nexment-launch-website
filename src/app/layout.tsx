@@ -38,10 +38,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${spaceGrotesk.variable} ${ibmPlexSerif.variable}`}
-    >
+    <html lang="en" className={`${spaceGrotesk.variable} ${ibmPlexSerif.variable}`}>
+      <head>
+        <link rel="preload" href="/hero-bg.webp" as="image" />
+      </head>
       <body>{children}</body>
     </html>
   );

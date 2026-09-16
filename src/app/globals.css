@@ -16,7 +16,7 @@ html {
 body {
   margin: 0;
   width: 100dvw;
-  background-image: url("/hero-bg.png");
+  background-image: url("/hero-bg.webp");
   background-size: cover;
   color: var(--text);
   font-family: var(--font-body);
@@ -58,4 +58,18 @@ html {
 
 body {
   -ms-overflow-style: none;
+}
+
+.loading {
+  height: 100dvh;
+  width: 100dvw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading-text {
+  font-size: x-large;
+  font-weight: 700;
+  font-family: var(--font-body);
 }
