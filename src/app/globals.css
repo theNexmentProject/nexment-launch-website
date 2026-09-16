@@ -16,10 +16,18 @@ html {
 body {
   margin: 0;
   width: 100dvw;
-  background: var(--background);
+  background-image: url("/hero-bg.png");
+  background-size: cover;
   color: var(--text);
   font-family: var(--font-body);
   font-weight: 500;
+  overflow-y: hidden;
+}
+
+@media(max-width: 800px) {
+  body {
+    overflow-y: auto;
+  }
 }
 
 h1,
